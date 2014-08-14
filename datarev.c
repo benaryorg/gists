@@ -13,3 +13,17 @@ void datarev(void *data,unsigned int nmemb,unsigned int size)
 		}
 	}
 }
+
+/*
+int main(void)
+{
+	int arr[]={1,2,3,4};
+	dataref(arr,4,sizeof(int));
+	int i;
+	for(i=0;i<4;i++)
+	{
+		printf("%d",arr[i]);
+	}
+	return 0;
+}
+*/

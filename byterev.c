@@ -9,3 +9,13 @@ void _byterev(char *base,char *data,const unsigned int len)
 		base[(base-data)+len]=ch;
 	}
 }
+
+/*
+int main(void)
+{
+	char str[]="asdf";
+	byteref(str,4);
+	puts(str);
+	return 0;
+}
+*/
