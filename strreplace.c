@@ -1,6 +1,6 @@
-size_t strreplace(char *str,char ch,char rep)
+unsigned int strreplace(char *str,char ch,char rep)
 {
-	size_t n;
+	unsigned int n;
 	for(n=0;*str;str++)
 	{
 		if(*str==ch)
